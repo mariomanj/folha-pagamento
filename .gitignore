@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+
+# Build do executável (gerado pelo build.ps1)
+build/
+dist/
+
+# Dados da empresa e dos funcionários: nunca versionar
+*.db
+*.db-journal
+rubricas.json
+tabelas.json
+*.csv
+
+# Certificado digital e chaves
+*.pfx
+*.p12
+*.key
